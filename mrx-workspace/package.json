@@ -1,0 +1,15 @@
+{
+  "name": "mrx-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://THE12X.github.io/mrx-workspace",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
